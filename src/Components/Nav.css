@@ -1,0 +1,10 @@
+header {
+    background-color: coral;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.header--logo {
+    height: 40px;
+}
