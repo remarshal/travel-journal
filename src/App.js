@@ -6,14 +6,18 @@ import './App.css';
 function App() {
   const destinations = data.map(destination => {
     return (
-      // key={destination.id},
-      destination = { destination }
+      <Card
+        key={destination.id}
+        destination={destination}
+      />
     );
   });
   return (
     <div className="App">
       <Nav />
-      <Card />
+      <section>
+        {destinations}
+      </section>
     </div>
   );
 }

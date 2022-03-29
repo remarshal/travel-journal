@@ -1,3 +1,7 @@
 .travel-card {
     margin: 100px 40px;
   }
+
+  .card--img {
+    width: 200px;
+  }
