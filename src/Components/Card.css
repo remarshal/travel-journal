@@ -5,7 +5,7 @@
   }
 
   .travel--img {
-
+    display: flex;
   }
 
   .card--img {
@@ -13,9 +13,14 @@
   }
 
   .travel--title {
-
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 200px; */
   }
 
   .travel--details {
-
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    text-align: left;
   }
