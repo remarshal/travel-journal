@@ -1,10 +1,17 @@
 header {
     background-color:tomato;
-    color: white;
-    padding: 25px;
-    text-align: center;
+    padding: 30px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header--logo {
     height: 40px;
+}
+
+.header--text {
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
 }
