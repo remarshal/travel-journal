@@ -1,7 +1,21 @@
 .travel-card {
-    margin: 100px 40px;
+    display: flex;
+    height: 200px;
+    margin: 50px 100px;
+  }
+
+  .travel--img {
+
   }
 
   .card--img {
     width: 200px;
+  }
+
+  .travel--title {
+
+  }
+
+  .travel--details {
+
   }
