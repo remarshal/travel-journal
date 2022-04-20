@@ -1,26 +1,39 @@
 .travel-card {
-    display: flex;
-    height: 200px;
-    margin: 50px 100px;
-  }
+  display: grid;
+  grid-template-columns: 30% 30% 40%;
+  margin: 50px 100px;
+}
 
-  .travel--img {
-    display: flex;
-  }
+.travel--img {
+  width: 100%;
+}
 
-  .card--img {
-    width: 200px;
+.card--img {
+  width: 80%;
+}
+
+.travel--title {
+  text-align: left;
+}
+
+.travel--details {
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+/* =============================== MEDIA QUERIES (SMALL DEVICES) =============================== */
+
+@media screen and (max-width: 600px) {
+  .travel-card {
+    grid-template-columns: 1fr;
+    text-align: center;
   }
 
   .travel--title {
-    display: flex;
-    flex-wrap: wrap;
-    /* width: 200px; */
+    text-align: center;
   }
 
   .travel--details {
-    display: flex;
-    flex-wrap: wrap;
-    width: 600px;
-    text-align: left;
+    text-align: center;
   }
+}
