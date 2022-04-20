@@ -6,7 +6,7 @@ function Nav() {
         <div >
             <header>
                 <img src={logo} className="header--logo" alt="logo" />
-                <h1 className='header--text'>my travel journal</h1>
+                <h1 className='header--text'>My Travel Journal</h1>
             </header>
         </div>
     );
